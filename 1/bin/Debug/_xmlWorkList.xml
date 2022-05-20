@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ArrayOfWorker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Worker>
+    <FullName>W1</FullName>
+    <Street>S1</Street>
+    <House>H1</House>
+    <Flat>F1</Flat>
+    <CellNumber>CN1</CellNumber>
+    <HomeNumber>HN1</HomeNumber>
+  </Worker>
+  <Worker>
+    <FullName>W2</FullName>
+    <Street>S2</Street>
+    <House>H2</House>
+    <Flat>F2</Flat>
+    <CellNumber>CN2</CellNumber>
+    <HomeNumber>HN2</HomeNumber>
+  </Worker>
+  <Worker>
+    <FullName>W3</FullName>
+    <Street>S3</Street>
+    <House>H3</House>
+    <Flat>F3</Flat>
+    <CellNumber>CN3</CellNumber>
+    <HomeNumber>HN3</HomeNumber>
+  </Worker>
+  <Worker>
+    <FullName>Wx</FullName>
+    <Street>Sx</Street>
+    <House>Hx</House>
+    <Flat>Fx</Flat>
+    <CellNumber>N1x</CellNumber>
+    <HomeNumber>N2x</HomeNumber>
+  </Worker>
+</ArrayOfWorker>

@@ -1,0 +1,7 @@
+D:\Unity\SkillBox\HomeWork\C#\HW8\1\bin\Debug\1.exe.config
+D:\Unity\SkillBox\HomeWork\C#\HW8\1\bin\Debug\1.exe
+D:\Unity\SkillBox\HomeWork\C#\HW8\1\bin\Debug\1.pdb
+D:\Unity\SkillBox\HomeWork\C#\HW8\1\obj\Debug\1.csproj.CoreCompileInputs.cache
+D:\Unity\SkillBox\HomeWork\C#\HW8\1\obj\Debug\1.exe
+D:\Unity\SkillBox\HomeWork\C#\HW8\1\obj\Debug\1.pdb
+D:\Unity\SkillBox\HomeWork\C#\HW8\1\obj\Debug\1.csproj.AssemblyReference.cache

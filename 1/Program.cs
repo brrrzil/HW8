@@ -111,9 +111,6 @@ namespace _1
            
             a = Int32.Parse(Console.ReadLine());
             
-            Console.WriteLine("Это не является числом.");
-            IsAdd();            
-
             if (hashSet.Contains(a))
             {
                 Console.WriteLine("Данное число уже есть в множестве.\n");
@@ -254,17 +251,17 @@ namespace _1
             Console.WriteLine($"\nЭлементов в list: {list.Count}");
 
             Console.WriteLine("\nДля перехода к следующему заданию нажмите любую клавишу . . .");
-            //Console.ReadLine();
+            Console.ReadLine();
             Console.Clear();
 
             #endregion
 
             #region Задание №2
             Console.WriteLine("Задание №2");
-            //string inputName = null, inputPhone = null;
+            string inputName = null, inputPhone = null;
             Dictionary<string, string> contacts = new Dictionary<string, string>();
 
-            //Menu(contacts, inputPhone, inputName);
+            Menu(contacts, inputPhone, inputName);
             Console.Clear();
             #endregion
 
@@ -272,8 +269,10 @@ namespace _1
 
             Console.WriteLine("Задание №3");
             HashSet<int> hashSet = new HashSet<int>();
-            //InputToHash(hashSet);
-            //Console.ReadKey();
+            InputToHash(hashSet);
+            PrintHashSet(hashSet);
+
+            Console.ReadKey();
             Console.Clear();
 
             #endregion
@@ -298,7 +297,7 @@ namespace _1
             XAttribute xAttributeFlat = new XAttribute("Квартира", Console.ReadLine());
             Console.Write("Введите мобильный телефон: ");
             XAttribute xAttributeMobilePhone = new XAttribute("Мобильный_телефон", Console.ReadLine());
-            Console.WriteLine("Введите домашний телефон: ");
+            Console.Write("Введите домашний телефон: ");
             XAttribute xAttributeFlatPhone = new XAttribute("Домашний_телефон", Console.ReadLine());
 
             Person.Add(Address, Phones);
@@ -312,6 +311,8 @@ namespace _1
             FlatPhone.Add(xAttributeFlatPhone);
 
             Person.Save("_Person.xml");
+
+            Console.WriteLine("Создан xml файл _Person.xml");
 
             #endregion
         }

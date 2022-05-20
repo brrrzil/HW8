@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Worker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FullName>sfsdf</FullName>
+  <Street>rthjt</Street>
+  <House>3256</House>
+  <Flat>3865</Flat>
+  <CellNumber>2145</CellNumber>
+  <HomeNumber>378</HomeNumber>
+</Worker>
