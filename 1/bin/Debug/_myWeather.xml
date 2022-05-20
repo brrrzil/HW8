@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<MMWEATHER>
-  <TOWN sname="Moscow">
-    <FORECAST>
-      <TEMPERATURE min="7" max="12" />
-    </FORECAST>
-  </TOWN>
-</MMWEATHER>
